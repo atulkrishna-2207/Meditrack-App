@@ -30,6 +30,6 @@ MediTrack is a hospital management dashboard built with the **MERN stack** (Mong
 ### Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Meditrack-App.git
+git clone https://github.com/atulkrishna-2207/Meditrack-App/
 cd Meditrack-App
 ```
