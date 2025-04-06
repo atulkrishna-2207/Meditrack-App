@@ -39,7 +39,7 @@ const MedicalRecords = () => {
         setError("Patient name and diagnosis are required.");
         return;
       }
-      await axios.post("http://localhost:5000/api/medical/add", formData);
+      await medicalAPI.add(formData);
       setFormData({
         patientName: "",
         doctorName: "",
