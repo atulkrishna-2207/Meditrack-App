@@ -16,13 +16,12 @@ const app = express();
 
 // Middleware
 app.use(
-  cors(
-    cors({
-      origin: "https://meditrack-app-client.onrender.com",
-      credentials: true,
-    })
-  )
+  cors({
+    origin: "https://meditrack-app-client.onrender.com",
+    credentials: true,
+  })
 );
+
 app.use(express.json());
 
 // Connect to MongoDB
