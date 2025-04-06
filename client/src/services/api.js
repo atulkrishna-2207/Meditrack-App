@@ -1,7 +1,9 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api", // Your backend route prefix
+  baseURL: "https://meditrack-app-7dfy.onrender.com", // Your backend route prefix
+  // https://meditrack-app-7dfy.onrender.com
+  // http://localhost:5000/api
 });
 
 // Example API call
